@@ -1,4 +1,5 @@
-accounts_relations = open("account_relations.csv").read()
-clients = open("clients.csv").read()
-transactions_history = open("transactions_history.csv").read()
-transactions_test = open("transactions_test.csv").read()
+import csv
+accounts_relations = open("account_relations.csv", encoding='utf-8', newline='')
+clients = open("clients.csv", encoding='utf-8', newline='')
+transactions_history = open("transactions_history.csv", encoding='utf-8', newline='')
+transactions_test = open("transactions_test.csv", encoding='utf-8', newline='')
